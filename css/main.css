@@ -81,7 +81,7 @@ header .textos_header{
     color: white;
 }
 
-/* Sobre osotros */
+/* Sobre nosotros */
 .contenedor_sobre_nosotros{
     display: flex;
     justify-content: space-evenly;
@@ -113,7 +113,7 @@ header .textos_header{
     margin-right: 10px;
 }
 
-contenido_textos p{
+.contenido_textos p{
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
@@ -206,75 +206,3 @@ footer{
     font-size: 24px;
     margin: 20px 0 0 0;
 }
-
-/**{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: 'Century Gothic', 'sans-serif';
-}
-
-header{
-    width: 100%;
-    padding: 40px;
-    color: white;
-    text-align: center;
-    background: #ec7c26;
-}
-
-footer{
-    background: #ec7c26;
-}
-
-footer h3{
-    list-style: none;
-    background: #ec7c26;
-    text-align: center;
-    color: white;
-}
-
-footer ul li{
-    display: inline;
-    padding: 15px;
-    transition: all ease-in-out 250ms;
-}
-
-#autores{
-    display: inline;
-    padding: auto;
-    color: white;
-    text-decoration: none;
-}
-
-#autores:hover{
-    background: #ffab66 ;
-}
-
-nav ul{
-    list-style: none;
-    background: #f59622;
-}
-
-nav ul li{
-    display: inline;
-    padding: 5px;
-    transition: all ease-in-out 250ms;
-}
-
-ul li a{
-    color: white;
-    text-decoration: none;
-}
-
-nav ul li:hover{
-    background: #ffab66;
-}
-
-.parrafo{
-    text-align: center;
-    padding: 10px;
-}*/
-
