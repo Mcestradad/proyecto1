@@ -16,6 +16,34 @@ header{
     background: #ec7c26;
 }
 
+footer{
+    background: #ec7c26;
+}
+
+footer h3{
+    list-style: none;
+    background: #ec7c26;
+    text-align: center;
+    color: white;
+}
+
+footer ul li{
+    display: inline;
+    padding: 15px;
+    transition: all ease-in-out 250ms;
+}
+
+#autores{
+    display: inline;
+    padding: auto;
+    color: white;
+    text-decoration: none;
+}
+
+#autores:hover{
+    background: #ffab66 ;
+}
+
 nav ul{
     list-style: none;
     background: #f59622;
