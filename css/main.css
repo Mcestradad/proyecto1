@@ -54,7 +54,149 @@ nav > a:hover{
     background: #ff7300
 }
 
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
+header .textos_header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos_header h1{
+    font-size: 50px;
+    color: white;
+}
+
+.textos_header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+
+/* Sobre osotros */
+.contenedor_sobre_nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen_sobre_nosotros{
+    width: 48%;
+    height: 30%;
+}
+
+.sobre_nosotros .contenido_textos{
+    width: 40%;
+}
+
+.contenido_textos h3{
+    margin-bottom: 15%;
+}
+
+.contenido_textos h3 span{
+    background: #ff7300;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+}
+
+contenido_textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/* Galeria*/
+
+.galeria{
+    background: #fbcfab;
+}
+
+.galeria_incio{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen_galeria{
+    width: 24%;
+    margin-bottom: 10px;
+    height: 235px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.imagen_galeria > img{
+    padding: 10px;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover_galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: #ff730059;
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover_galeria > img{
+    width: 50%;
+    height: 50%;
+    filter: invert(0.7) saturate(100);
+    opacity: 0.4;
+
+}
+
+.hover_galeria p{
+    color: white;
+}
+
+.imagen_galeria:hover .hover_galeria{
+    transform: scale(1);
+}
+
+/* footer*/
+
+footer{
+    background: white;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.footer_contenedor{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px;
+}
 
 /**{
     margin: 0;
