@@ -167,7 +167,6 @@ contenido_textos p{
 .hover_galeria > img{
     width: 50%;
     height: 50%;
-    filter: invert(0.7) saturate(100);
     opacity: 0.4;
 
 }
@@ -196,6 +195,16 @@ footer{
     margin: auto;
     padding-bottom: 50px;
     border-bottom: 1px;
+}
+
+.contenido_footer{
+    text-align: center;
+}
+
+.titulo_final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
 }
 
 /**{
