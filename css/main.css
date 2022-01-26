@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Century Gothic', 'sans-serif';
+}
+
+header{
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    background: #ec7c26;
+}
+
+nav ul{
+    list-style: none;
+    background: #f59622;
+}
+
+nav ul li{
+    display: inline;
+    padding: 5px;
+    transition: all ease-in-out 250ms;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: #ffab66;
+}
+
+.parrafo{
+    text-align: center;
+    padding: 10px;
+}
