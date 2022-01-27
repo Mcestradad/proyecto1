@@ -212,6 +212,24 @@ footer{
     background: #fbcfab;
 }
 
+.contenido_textos .separador{
+    background: #ff7300;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.contenido_textos .parrafos_foro{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.contenido_textos h3.titulo_foro{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .contenido_textos p.parrafo_foro{
     /*padding: 0px 0px 30px 15px;*/
     margin-top: 5px;
@@ -222,6 +240,5 @@ footer{
     text-align: justify;
 }
 
-.contenido_textos h3.titulo_foro{
-    text-align: center;
-}
+
+
