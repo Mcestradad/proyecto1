@@ -8,8 +8,8 @@ body{
     font-family: 'open sans';
 }
 
-.foro{
-    background: #fbcfab;
+.servicios{
+    background: white;
 }
 
 .contenido_textos .separador{
@@ -30,6 +30,18 @@ body{
     text-align: center;
 }
 
+h4.titulo_foro{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h5.titulo_foro{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .contenido_textos p.parrafo_servicio{
     /*padding: 0px 0px 30px 15px;*/
     margin-top: 5px;
@@ -39,3 +51,23 @@ body{
     font-weight: 300;
     text-align: justify;
 }
+
+.contenido_textos img{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 30%;
+}
+
+/*
+.ingredientes{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+*/
+
+.titulo_servicios{
+    text-align: center;
+}
+
