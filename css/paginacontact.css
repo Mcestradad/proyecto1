@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+#carousel_3fc2{
+    background: white;
+}
+
+
 body {
     /*font-family: 'Century Gothic', 'sans-serif';*/
     font-family: 'open sans';
@@ -168,7 +173,7 @@ a {
 .u-image, .u-background-effect-image, .u-video-poster {
     object-fit: cover;
     display: block;
-    vertical-align: middle;
+    vertical-align:middle;
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -480,8 +485,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .u-palette-3-base, .u-body.u-palette-3-base, .u-container-style.u-palette-3-base:before, .u-container-style.u-palette-3-base > .u-container-layout:before, .u-container-layout.u-palette-3-base:before, .u-table-alt-palette-3-base tr:nth-child(even) {
-    color: #111111;
-    background-color: #f1c50e;
+    /*color: #111111;*/
+    background-color: #fbcfab;
 }
 
 .u-grey-80, .u-body.u-grey-80, .u-container-style.u-grey-80:before, .u-container-style.u-grey-80 > .u-container-layout:before, .u-container-layout.u-grey-80:before, .u-table-alt-grey-80 tr:nth-child(even) {
