@@ -554,7 +554,8 @@ ul:not(.u-unstyled) {
 }
 
 .u-body {
-    background-image: linear-gradient(#c94747, #f1c50e);
+    /*background-image: linear-gradient(#c94747, #f1c50e);*/
+    background: #fbcfab;
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
