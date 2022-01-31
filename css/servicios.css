@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.servicios{
+    background: white;
+}
+
+.contenido_textos .separador{
+    background: #ff7300;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.contenido_textos .parrafos_servicios{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.contenido_textos h3.titulo_servicios{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4.titulo_foro{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h5.titulo_foro{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contenido_textos p.parrafo_servicio{
+    /*padding: 0px 0px 30px 15px;*/
+    margin-top: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.contenido_textos img{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 30%;
+}
+
+/*
+.ingredientes{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+*/
+
+.titulo_servicios{
+    text-align: center;
+}
+
